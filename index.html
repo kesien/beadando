@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./res/styles/style.css" />
+    <script src="./res/scripts/main.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/628d1fa792.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Nóbik Balázs Portfólió weboldal</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header class="header">
+      <div class="navigation">
+        <input
+          type="checkbox"
+          name="navi-toggle"
+          id="navi-toggle"
+          class="navigation__checkbox"
+        />
+        <label for="navi-toggle" class="navigation__button">
+          <span class="navigation__icon">&nbsp;</span>
+        </label>
+        <div class="navigation__background">&nbsp;</div>
+        <nav class="navigation__nav">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#section-home" class="navigation__link">Kezdőlap</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#section-about" class="navigation__link">Rólam</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#section-projects" class="navigation__link">Munkáim</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#section-contact" class="navigation__link">Kapcsolat</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Welcome -->
+    <section class="section-home" id="section-home">
+      <div class="home">
+        <div class="home__bg">&nbsp;</div>
+        <div class="home__text">
+          <h1 class="heading-primary">
+            <span class="heading-primary--main">Nóbik Balázs</span>
+            <span class="heading-primary--sub"
+              >Szoftverfejlesztő és tesztelő</span
+            >
+          </h1>
+          <div class="home__image-container">
+            <img
+              src="./res/images/programming.png"
+              alt="A person with a computer"
+              class="home__image"
+            />
+          </div>
+          <div class="home__cta">
+            <a href="#section-contact" class="btn btn--cta" role="button"
+              >Kapcsolat</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section-about" id="section-about">
+      <h3 class="heading-tertiary">
+        Szia! Balázs vagyok. Örülök, hogy megismerhetlek!
+      </h3>
+      <p class="paragraph">
+        Még középiskolában ismerkedtem meg a programozással, de számomra ez
+        mindig is inkább egy hobbi volt, mint karriercél. Szeretem a
+        kihívásokat. Fontosnak tartom, hogy folyamatosan fejlesszem magam, hogy
+        lépést tartsak a legújabb technológiákkal.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section class="section-skills">
+      <div class="skills">
+        <!-- Frontend skills -->
+        <div class="skills__column">
+          <div class="skills__icon"><i class="fas fa-file-code"></i></div>
+          <h4 class="skills__heading">Frontend technológiák</h4>
+          <div class="skills__skill">
+            <div class="skills__skillname">HTML5</div>
+            <div class="skills__skillprogress">
+              <div class="progress progress--100">
+                <div class="skills__bar">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__skill">
+            <div class="skills__skillname">CSS3</div>
+            <div class="skills__skillprogress">
+              <div class="progress progress--100">
+                <div class="skills__bar">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__skill">
+            <div class="skills__skillname">SASS</div>
+            <div class="skills__skillprogress">
+              <div class="progress progress--90">
+                <div class="skills__bar">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__skill">
+            <div class="skills__skillname">Javascript</div>
+            <div class="skills__skillprogress">
+              <div class="progress progress--90">
+                <div class="skills__bar">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__skill">
+            <div class="skills__skillname">Typescript</div>
+            <div class="skills__skillprogress">
+              <div class="progress progress--80">
+                <div class="skills__bar">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__skill">
+            <div class="skills__skillname">React</div>
+            <div class="skills__skillprogress">
+              <div class="progress progress--60">
+                <div class="skills__bar">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__skill">
+            <div class="skills__skillname">Angular</div>
+            <div class="skills__skillprogress">
+              <div class="progress progress--70">
+                <div class="skills__bar">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__skill">
+            <div class="skills__skillname">Android (Kotlin)</div>
+            <div class="skills__skillprogress">
+              <div class="progress progress--40">
+                <div class="skills__bar">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Backend skills -->
+        <div class="skills__column">
+          <div class="skills__icon"><i class="fas fa-server"></i></div>
+          <h4 class="skills__heading">Backend technológiák</h4>
+          <div class="skills__skill">
+            <div class="skills__skillname">C#</div>
+            <div class="skills__skillprogress">
+              <div class="progress progress--80">
+                <div class="skills__bar">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__skill">
+            <div class="skills__skillname">ASP.Net Core</div>
+            <div class="skills__skillprogress">
+              <div class="progress progress--60">
+                <div class="skills__bar">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__skill">
+            <div class="skills__skillname">Entity Framework</div>
+            <div class="skills__skillprogress">
+              <div class="progress progress--60">
+                <div class="skills__bar">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__skill">
+            <div class="skills__skillname">Express</div>
+            <div class="skills__skillprogress">
+              <div class="progress progress--50">
+                <div class="skills__bar">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__skill">
+            <div class="skills__skillname">NestJS</div>
+            <div class="skills__skillprogress">
+              <div class="progress progress--60">
+                <div class="skills__bar">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__skill">
+            <div class="skills__skillname">MongoDB</div>
+            <div class="skills__skillprogress">
+              <div class="progress progress--50">
+                <div class="skills__bar">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__skill">
+            <div class="skills__skillname">MSSQL</div>
+            <div class="skills__skillprogress">
+              <div class="progress progress--50">
+                <div class="skills__bar">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Other skills -->
+        <div class="skills__column">
+          <div class="skills__icon"><i class="fas fa-laptop"></i></div>
+          <h4 class="skills__heading">Egyéb</h4>
+          <div class="skills__skill">
+            <div class="skills__skillname">UNIX</div>
+            <div class="skills__skillprogress">
+              <div class="progress progress--90">
+                <div class="skills__bar">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__skill">
+            <div class="skills__skillname">Docker</div>
+            <div class="skills__skillprogress">
+              <div class="progress progress--60">
+                <div class="skills__bar">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__skill">
+            <div class="skills__skillname">Kubernetes</div>
+            <div class="skills__skillprogress">
+              <div class="progress progress--30">
+                <div class="skills__bar">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__skill">
+            <div class="skills__skillname">GIT</div>
+            <div class="skills__skillprogress">
+              <div class="progress progress--100">
+                <div class="skills__bar">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects -->
+    <section class="section-projects" id="section-projects">
+      <h2 class="heading-secondary">Néhány projektem</h2>
+      <div class="projects">
+        <div class="project">
+          <div class="project__title">Natours</div>
+          <div class="project__preview">
+            <img
+              src="./res/images/natours.png"
+              alt="Natours project"
+              class="project__image"
+            />
+          </div>
+          <div class="project__links">
+            <a href="#" class="project__link"><i class="fab fa-github"></i></a>
+          </div>
+          <div class="project__description">
+            Egy egy oldalas startup oldal HTML és SASS használatával Jonas
+            Schmedtmann kurzusából.
+          </div>
+          <div class="project__technologies">HTML5, SASS</div>
+        </div>
+        <div class="project">
+          <div class="project__title">Trillo</div>
+          <div class="project__preview">
+            <img
+              src="./res/images/trillo.png"
+              alt="Natours project"
+              class="project__image"
+            />
+          </div>
+          <div class="project__links">
+            <a href="#" class="project__link"><i class="fab fa-github"></i></a>
+          </div>
+          <div class="project__description">
+            Statikus weboldal egy fiktív utazásokkal foglalkozó cégnek főként
+            Flexbox használatával.
+          </div>
+          <div class="project__technologies">HTML5, SASS, Flexbox</div>
+        </div>
+        <div class="project">
+          <div class="project__title">Sunside Agency</div>
+          <div class="project__preview">
+            <img
+              src="./res/images/sunside.png"
+              alt="Natours project"
+              class="project__image"
+            />
+          </div>
+          <div class="project__links">
+            <a href="#" class="project__link"><i class="fab fa-github"></i></a>
+          </div>
+          <div class="project__description">
+            A Frontend Mentor egyik kihívása.
+          </div>
+          <div class="project__technologies">HTML5, CSS</div>
+        </div>
+        <div class="project">
+          <div class="project__title">Beosztás készítő</div>
+          <div class="project__preview">
+            <img
+              src="./res/images/workschedule.png"
+              alt="Natours project"
+              class="project__image"
+            />
+          </div>
+          <div class="project__links">
+            <a href="#" class="project__link"><i class="fab fa-github"></i></a>
+          </div>
+          <div class="project__description">
+            Saját munkahelyi felhasználásra készült projekt. Automatizálja a havi beosztás elkészítését ami előtte több órát vett igénybe.
+          </div>
+          <div class="project__technologies">HTML5, CSS, Javascript</div>
+        </div>
+        <div class="project">
+          <div class="project__title">E-learning Tool</div>
+          <div class="project__preview">
+            <img
+              src="./res/images/cloudlearning.PNG"
+              alt="Natours project"
+              class="project__image"
+            />
+          </div>
+          <div class="project__links">
+            <a href="#" class="project__link"><i class="fab fa-github"></i></a>
+          </div>
+          <div class="project__description">
+            Munkahelyi E-learning felhasználók menedzelését automatizáló szoftver. Először Winforms használatával, később ASP.Net Core API-hoz újraírva.
+          </div>
+          <div class="project__technologies">C#, Winforms, ASP.Net Core</div>
+        </div>
+      </div>
+      
+      </div>
+      </div>
+      </div>
+      
+      
+    </section>
+  </body>
+</html>
