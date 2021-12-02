@@ -74,7 +74,6 @@
         </div>
       </div>
     </section>
-
     <!-- About -->
     <section class="section-about" id="section-about">
       <h3 class="heading-tertiary">
@@ -268,6 +267,13 @@
         <div class="project">
           <div class="project__title">Natours</div>
           <div class="project__preview">
+            <a
+              href="https://kesien.github.io/Natours"
+              target="_blank"
+              class="project__preview--link"
+            >
+              <i class="fa fa-search"></i> Előnézet</a
+            >
             <img
               src="./res/images/natours.png"
               alt="Natours project"
@@ -275,7 +281,12 @@
             />
           </div>
           <div class="project__links">
-            <a href="#" class="project__link"><i class="fab fa-github"></i></a>
+            <a
+              href="https://github.com/kesien/Natours"
+              target="_blank"
+              class="project__link"
+              ><i class="fab fa-github"></i
+            ></a>
           </div>
           <div class="project__description">
             Egy egy oldalas startup oldal HTML és SASS használatával Jonas
@@ -286,6 +297,13 @@
         <div class="project">
           <div class="project__title">Trillo</div>
           <div class="project__preview">
+            <a
+              href="https://kesien.github.io/Trillo"
+              target="_blank"
+              class="project__preview--link"
+            >
+              <i class="fa fa-search"></i> Előnézet</a
+            >
             <img
               src="./res/images/trillo.png"
               alt="Natours project"
@@ -304,6 +322,13 @@
         <div class="project">
           <div class="project__title">Sunside Agency</div>
           <div class="project__preview">
+            <a
+              href="https://kesien.github.io/SunsideAgency"
+              target="_blank"
+              class="project__preview--link"
+            >
+              <i class="fa fa-search"></i> Előnézet</a
+            >
             <img
               src="./res/images/sunside.png"
               alt="Natours project"
@@ -321,6 +346,13 @@
         <div class="project">
           <div class="project__title">Beosztás készítő</div>
           <div class="project__preview">
+            <a
+              href="https://kesien.github.io/WorkScheduler"
+              target="_blank"
+              class="project__preview--link"
+            >
+              <i class="fa fa-search"></i> Előnézet</a
+            >
             <img
               src="./res/images/workschedule.png"
               alt="Natours project"
@@ -331,7 +363,8 @@
             <a href="#" class="project__link"><i class="fab fa-github"></i></a>
           </div>
           <div class="project__description">
-            Saját munkahelyi felhasználásra készült projekt. Automatizálja a havi beosztás elkészítését ami előtte több órát vett igénybe.
+            Saját munkahelyi felhasználásra készült projekt. Automatizálja a
+            havi beosztás elkészítését ami előtte több órát vett igénybe.
           </div>
           <div class="project__technologies">HTML5, CSS, Javascript</div>
         </div>
@@ -348,17 +381,37 @@
             <a href="#" class="project__link"><i class="fab fa-github"></i></a>
           </div>
           <div class="project__description">
-            Munkahelyi E-learning felhasználók menedzelését automatizáló szoftver. Először Winforms használatával, később ASP.Net Core API-hoz újraírva.
+            Munkahelyi E-learning felhasználók menedzelését automatizáló
+            szoftver. Először Winforms használatával, később ASP.Net Core
+            API-hoz újraírva.
           </div>
           <div class="project__technologies">C#, Winforms, ASP.Net Core</div>
         </div>
       </div>
-      
-      </div>
-      </div>
-      </div>
-      
-      
+    </section>
+
+    <!-- Section contact -->
+    <section class="section-contact" id="section-contact">
+      <form class="contact__form">
+        <h2 class="form-header">Kapcsolat</h2>
+        <label for="name">Név</label>
+        <input class="form-input" placeholder="Az Ön neve" />
+        <label for="email">E-mail</label>
+        <input class="form-input" placeholder="E-mail cím" type="email" />
+        <label for="phone">Telefon</label>
+        <input class="form-input" type="tel" />
+        <label for="message">Üzenet</label>
+        <textarea class="form-input" id="message"></textarea>
+        <button class="form-button">Küldés</button>
+        <div class="form-footer">
+          <span class="form-span"
+            ><i class="fa fa-phone"></i>+363012345678</span
+          >
+          <span class="form-span"
+            ><i class="fa fa-envelope-o"></i>balazsnobik@nincsilyen.com</span
+          >
+        </div>
+      </form>
     </section>
   </body>
 </html>
